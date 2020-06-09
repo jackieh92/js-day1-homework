@@ -1,7 +1,6 @@
 // Exercise 1
-let dog_string = "Hello Max, my name is Dog, and I have purple eyes!"
-let dog_name = ["Max", "HAS", "PuRple", "dog"]
-dog_string.split(" ")
+let dog_string = "Hello Bianca, my name is Dog, and I have purple eyes!"
+let dog_name = ["Max", "HAS", "PuRple", "dog", "Bianca"]
 function findWords() {
   dog_name.forEach(function (item, index) {
   if (dog_string.includes(item)){
